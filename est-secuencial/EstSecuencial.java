@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class EstSecuencial{
+public class EstSecuencial{
  static Scanner teclado=new Scanner(System.in);
 public static void main(String[] arg){
  //Definir variables y otros
