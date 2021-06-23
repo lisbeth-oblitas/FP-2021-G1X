@@ -39,7 +39,22 @@ for(i=1; i<=cantidad;i++){
 }
 }
 
-
+function fibonaci( numero) {
+        var num1=0, num2=1, temp=0, result=0;
+        var contador=0;
+        if(numero>1){
+            while (contador < numero-1) {                
+                temp=num2;
+                result=num1+num2;
+                num1=temp;
+                num2=result;                
+                contador++;
+            } 
+            return result;           
+        }else{
+            return numero;
+        }      
+    }
 </script>
 
 

@@ -2,7 +2,7 @@ package pe.edu.upeu;
 
 import java.util.Scanner;
 
-public class subprogramas {
+public class SubProgramas {
     
     Scanner teclado=new Scanner(System.in); 
 
